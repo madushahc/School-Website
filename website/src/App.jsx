@@ -6,6 +6,7 @@ import Library from './Components/Library';
 import LMS from './Components/LMS';
 import About from './Components/About';
 import Home from './Components/Home';
+import Vlogs from './Components/Vlogs';
 
 function App() {
     return (
@@ -18,6 +19,7 @@ function App() {
                     <Route path="/lms" element={<LMS />} />
                     <Route path="/about" element={<About />} />
                     <Route path="/login" element={<Login />} />
+                    <Route path="/vlogs" element={<Vlogs/>} />
                     <Route path="/" element={<Home />} />
                 </Routes>
             </BrowserRouter>

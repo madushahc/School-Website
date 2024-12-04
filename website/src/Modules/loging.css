@@ -75,8 +75,10 @@ form .content{
   font-size: 16px;
   align-items: center;
   justify-content: space-around;
+  
 }
 form .content .checkbox{
+  margin-top: 70px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -92,6 +94,7 @@ form .content label{
   padding-left: 5px;
 }
 form .content .pass-link{
+  margin-top: 70px;
   color: "";
 }
 form .field input[type="submit"]{
