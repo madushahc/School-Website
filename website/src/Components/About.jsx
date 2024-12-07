@@ -1,3 +1,8 @@
+import Form from "./Form";
+
 export default function About() {
-    return (<div></div>);
+    return (
+    <div>
+        <Form />
+    </div>);
 }

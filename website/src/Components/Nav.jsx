@@ -10,7 +10,7 @@ export default function Nav() {
                 <li><Link to="/registration">Registration</Link></li> 
                 <li><Link to="/library">Library</Link></li>
                 <li><Link to="/lms">LMS</Link></li> 
-                <li><Link to="/vlogs">Vlogs</Link></li>
+                <li><Link to="/blogs">Blogs</Link></li>
                 <li><Link to="/about">About</Link></li>
                 <li><Link className="active" to="/login">Login</Link></li> 
             </ul>

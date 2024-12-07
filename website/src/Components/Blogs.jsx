@@ -1,17 +1,17 @@
-import "../Modules/vlogs.css"
+import "../Modules/blogs.css"
 
-export default function Vlogs(){
+export default function Blogs(){
     return(
         <div>
             <table>
                 <tr>
                     <th>
-            <div className="container">
-                <div className="title">
+            <div className="containerr">
+                <div className="titlee">
                     Madusha Heshan<br></br>
                     Grade 10
                 </div>
-                <div className="content">
+                <div className="contentt">
                     Hello World
                 </div>
             </div>

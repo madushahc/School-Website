@@ -1,5 +1,5 @@
 import "../Modules/loging.css";
-const message =()=>{ alert("Contact with Your Administrater");}
+
 export default function Login(){
    
     return(
@@ -37,4 +37,6 @@ export default function Login(){
 
         </div>
     );
+
 }
+const message =()=>{ alert("Contact with Your Administrater");}

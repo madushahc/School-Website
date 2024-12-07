@@ -1,6 +1,6 @@
-import '../Modules/vlogsform.css';
+import '../Modules/blogs.css';
 
-export default function VlogsForm(){
+export default function BlogsForm(){
     return(
         <div className="contanier">
             <h1>Vlogs Form</h1>
