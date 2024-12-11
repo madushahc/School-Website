@@ -4,7 +4,7 @@ export default function Login(){
    
     return(
         <div>
-            <div class="wrapper">
+            <div class="wrapper place-self-center">
          <div class="title">
             Login Form
          </div>

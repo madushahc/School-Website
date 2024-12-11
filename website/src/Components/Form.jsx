@@ -4,10 +4,10 @@ import '../Modules/form.css'
 export default function Form(
 ){
     return (
-        <div class="border">
-        <div class="container">
+        <div class="border max-w-8xl place-self-center" >
+        <div class="container pt-0 pb-1">
         
-        <div class="title">Registration</div>
+        <div class="title p-0">Registration</div>
         <div class="content">
           
           

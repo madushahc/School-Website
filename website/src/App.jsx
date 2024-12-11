@@ -7,6 +7,7 @@ import LMS from './Components/LMS';
 import About from './Components/About';
 import Home from './Components/Home';
 import Blogs from './Components/Blogs';
+import "./index.css"
 
 function App() {
     return (
