@@ -3,7 +3,7 @@ import '../Modules/blogs.css';
 export default function BlogsForm(){
     return(
         <div className="contanier">
-            <h1>Vlogs Form</h1>
+            <h1>Blogs Form</h1>
             <div className="content">
                 <table>
                     <tr><td>
