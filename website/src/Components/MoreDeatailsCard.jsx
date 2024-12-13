@@ -34,28 +34,29 @@ export default function MoreDetailsCard({ show, item, onClose }) {
             <h3 className="text-sm font-medium text-green-700 mb-1">
               {item.volumeInfo.authors?.join(", ") || "Unknown"}
             </h3>
-            <h4 className="text-sm text-blue-600 mb-4">
-              Publisher: {item.volumeInfo.publisher || "N/A"}{" "}
-              <span>({item.volumeInfo.publishedDate || "N/A"})</span>
-             
-             <h4 className="text-sm text-gray-600  " >Average Ratings <span className="ml-3  text-black" >   {item.volumeInfo.averageRating || "No ratings available."}</span>
-             </h4>
-             <h4 className="text-sm text-gray-600 ">
-             Page Count <span className=" text-black ml-3 " >  {item.volumeInfo.pageCount || "No page count available."}</span>
-             </h4>
-            </h4>
-        
-            <h4 className="text-sm text-gray-700 text-justify mb-4">
+            <h4 className="text-sm text-blue-600 mb-0">
+  Publisher: {item.volumeInfo.publisher || "N/A"}{" "}
+  <span>({item.volumeInfo.publishedDate || "N/A"})</span>
+  </h4>
+  <div className="text-sm text-gray-600 mt-0">
+    Average Ratings 
+    <span className="ml-3 text-black">{item.volumeInfo.averageRating || "No ratings available."}</span><br></br>
+    Page Count 
+    <span className="text-black ml-3">{item.volumeInfo.pageCount || "No page count available."}</span>
+  </div>
+
+
+            <h4 className="text-sm text-gray-700 text-justify  mt-4">
               {item.volumeInfo.description || "No description available."}
             </h4>
   
-            <div className="flex justify-center lg:justify-start">
+            <div className="flex justify-center items-center lg:justify-start">
               <a
                 href={item.volumeInfo.previewLink}
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <button className="px-4 py-2 rounded-md bg-blue-600 text-white font-bold hover:bg-blue-700 transition-transform transform hover:scale-105">
+                <button className=" px-4 py-2 rounded-md bg-blue-600 text-white font-bold hover:bg-blue-700 transition-transform transform hover:scale-105">
                   More
                 </button>
               </a>
