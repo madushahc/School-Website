@@ -33,7 +33,7 @@ export default function BookCard({ book }) {
                   {title}
                 </h3>
                 <p className="text-sm text-gray-600 line-clamp-3 overflow-hidden">
-                  {item.searchInfo?.textSnippet || "No description available."}
+                  {item.volumeInfo?.description || "No description available."}
                 </p>
               </div>
               <div className="flex-auto">
